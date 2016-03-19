@@ -1,0 +1,4 @@
+killall serv
+rm client.o
+gcc -c client.c 2>clerr
+gcc -O2 -I. -lpigpio -lrt -lpthread client.o main.c -o serv 2>err
