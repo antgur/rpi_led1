@@ -1,0 +1,2 @@
+Simple LED driving via Raspberry PI GPIO example written in C.
+Server application, running even after terminal session exit.
